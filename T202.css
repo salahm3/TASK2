@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="css/master.css" />
+<style>
+main {
+    width: 600px;
+  height:40px;
+  background-color: #eee;
+  margin: 20px auto;
+  padding: 20px;
+  border-bottom: solid;
+  border-image: linear-gradient( to right, red 50%, turquoise 50%)5;
+}
+    div {
+  width: 600px;
+  height:40px;
+  background-color: #eee;
+  margin: 20px auto;
+  padding: 20px;
+  border-bottom: solid;
+  border-image: linear-gradient( to right, red 50%, turquoise 50%)5;
+  opacity: 0.6;
+}
+div {
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+main {
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+</style>
+  </head>
+  <body>
+    <main class="1">Elzero</main>
+    <div class="2">Two</div>
+    <div class="3">Three</div>
+  </body>
+</html>
