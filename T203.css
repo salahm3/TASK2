@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+ * {
+  box-sizing: border-box;
+}
+
+ .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+}
+.parent {
+  margin: 60px auto;
+  width: 800px;
+  height: 400px;
+  background-color: #ddd;
+  display: grid;
+  grid-template-columns: repeat(3, auto) ;
+  grid-template-rows: 50px 300px;
+  row-gap: 0.5px;
+  column-gap: 0.5px;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.parent div {
+  background-color: lightslategrey;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  font-family: arial,helvetica, sans-serif;
+  vertical-align: center;
+}
+</style>
+</head>
+<body>
+<div class="parent">
+  <div>Element1</div>
+  <div>Element2</div>
+  <div>Element3</div>
+  <div>Element4</div>
+  <div>Element5</div>
+  <div>Element6</div>
+</div>
+</body>
+</html>
